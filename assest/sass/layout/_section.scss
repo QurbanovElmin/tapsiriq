@@ -1,0 +1,29 @@
+.divbs{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    section{
+        width: 80%;
+        display: flex;
+        flex-direction: row-reverse;
+
+        img{
+            width: 100%;
+            border-radius: 50%;
+            
+        }
+        div{
+            width:100%;
+            margin:20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                width: 80%;
+            }
+        }
+    }
+
+}
